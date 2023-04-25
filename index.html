@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cotizá tu Plazo Fijo</title>
+    <link rel="shortcut icon" href="img/icono.png" type="image/x-icon">
+    <!-- CSS BS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- CSS PROPIOS -->
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body class="container">
+
+    <header class="colorFondo">
+        <span id="dolar"></span>
+    </header>
+
+    <main class="row colorFondo m-3">
+        <div class="col">
+            <img class="imgEmpleado" src="img/banco.jpg" alt="Personal del Banco">
+        </div>
+
+        <form id="formulario" class="col">
+            <h1>Cotizador de Plazos Fijos</h1>
+            <label for="monto">Monto (en pesos)</label>
+            <input type="number" id="monto">
+            <label for="plazo">Plazo (en meses)</label>
+            <input type="number" id="plazo">
+            <button class="cssbuttons-io-button"> Cotizar
+                <div class="icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"></path><path fill="currentColor" d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"></path></svg>
+                </div>
+              </button>
+        </form>
+
+    </main>
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <!--  NUESTRO JS -->
+    <script src="main.js"></script>
+</body>
+
+</html>
